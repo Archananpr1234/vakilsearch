@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vakil Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-item-one">
+            <a href="#" class="nav-logo">
+                <video autoplay loop muted playsinline>
+                    <source src="./assets/zolvit.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </a>
+        </div>
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+        <div class="navbar-item-two" id="navbar-menu">
+            <button class="button-blue">Consult an Expert</button>
+            <div class="dropdown">Business Setup</div>
+            <div class="dropdown">Tax & Compliance</div>
+            <div class="dropdown">Trademark & IP</div>
+            <div class="dropdown">Documentation</div>
+            <div class="dropdown">Others</div>
+            <button class="login-button">Login</button>
+        </div>
+    </div>
+    <div class="alert">
+        <b>Notice:</b> File your annual accounts (AOC-4) before 29th October <a href="#" class="alert-link">Talk to our
+            expert</a>
+    </div>
+
+    <div class="consultation-section">
+        <div class="left-content">
+            <h1>Talk to an Expert<br>Real Experts. Real Advice.</h1>
+            <hr class="yellow-line">
+            <ul class="features-list">
+                <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span>200+ Verified
+                        Experts</span></li>
+                <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span> Advice on All
+                        Issues</span></li>
+                <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span>No Hidden
+                        Costs</span></li>
+                <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span>Guaranteed
+                        Satisfaction, or Full Refund</span></li>
+            </ul><span></span>
+        </div>
+        <div class="right-content">
+            <form class="consult-form">
+                <input type="tel" placeholder="Mobile number*" required>
+                <input type="email" placeholder="Email address*" required>
+                <select required>
+                    <option value="" disabled selected>Select city*</option>
+                    <option value="city1">Bengaluru - Bangalore</option>
+                    <option value="city2">Chennai</option>
+                    <option value="city2">Cochin</option>
+                    <option value="city2">Coimbator</option>
+                    <option value="city2">Delhi</option>
+                    <option value="city2">Gurugram - Gurgaon</option>
+                    <option value="city2">Hyderabad</option>
+                    <option value="city2">Kolkata</option>
+                    <option value="city2">Mumbai</option>
+                    <option value="city2">Nioda</option>
+                    <option value="city2">Thiruvananthapuram</option>
+                    <option value="city2">Vijayawada</option>
+                    <option value="city2">Visakhapatnam</option>
+                    <option value="city2">Addanki</option>
+                    <option value="city2">Adilabad</option>
+                    <option value="city2">Agartala</option>
+                    <option value="city2">Agra</option>
+                    <option value="city2">Ahmedabad</option>
+                    <option value="city2">Aizawl</option>
+                    <option value="city2">Ajmer</option>
+                    <option value="city2">Akola</option>
+                    <option value="city2">Alappuzha</option>
+                    <option value="city2">Aligarh</option>
+                    <option value="city2">Allhabad</option>
+                    <option value="city2">Alwar</option>
+                    <option value="city2">Amaravati</option>
+                    <option value="city2">Ambala</option>
+                    <option value="city2">Amritsar</option>
+                    <option value="city2">Anand</option>
+                    <option value="city2">Anantapur</option>
+                    <option value="city2">Andaman</option>
+                    <option value="city2">Aurangabad</option>
+                    <option value="city2">Aurangabad-Bihar</option>
+                    <option value="city2">Azamgarh</option>
+                    <option value="city2">Badlapur</option>
+                    <option value="city2">Bagaha</option>
+                    <option value="city2">Bagalkot</option>
+                    <option value="city2">Bahadurgarh</option>
+                    <option value="city2">Baltora</option>
+                    <option value="city2">Aurangabad</option>
+                    <option value="city2">Baraut</option>
+                    <option value="city2">Bardhaman</option>
+                    <option value="city2">Bareilly</option>
+                    <option value="city2">Bathinda</option>
+                    <option value="city2">Begusarai</option>
+                    <option value="city2">Belgaum</option>
+                    <option value="city2">Bellary</option>
+                    <option value="city2">Berhampur</option>
+                    <option value="city2">Bhadreswer</option>
+                    <option value="city2">Bhagalpur</option>
+                    <option value="city2">Bharuch</option>
+                    <option value="city2">Bhavnagar</option>
+                    <option value="city2">Bhayandar</option>
+                    <option value="city2">Bhilai</option>
+                    <option value="city2">Bhilwara</option>
+                    <option value="city2">Bhiwandi</option>
+                    <option value="city2">Bhiwani</option>
+                    <option value="city2">Bhopal</option>
+                    <option value="city2">Bhubaneswar</option>
+                    <option value="city2">Bidar</option>
+                    <option value="city2">Bijapur</option>
+                    <option value="city2">Bikaner</option>
+                    <option value="city2">Bilaspur</option>
+                    <option value="city2">Bina Etawa</option>
+                    <option value="city2">Birati</option>
+                    <option value="city2">Birbhum</option>
+                    <option value="city2">Bishalgarh</option>
+                    <option value="city2">Botlagudur</option>
+                    <option value="city2">Budaun</option>
+                    <option value="city2">Budgam</option>
+                </select>
+                <select required>
+                    <option value="" disabled selected>Select language*</option>
+                    <option value="language1">English</option>
+                    <option value="language2">Hindi</option>
+                    <option value="language2">Tamil</option>
+
+                </select>
+                <select required>
+                    <option value="" disabled selected>Select your requirements*</option>
+                    <option value="requirement1">Consult - 2023 Budget Impacts</option>
+                    <option value="requirement2">Property & Civil Matters</option>
+                    <option value="requirement2">Money Recovery</option>
+                    <option value="requirement2">Matrimonial Services</option>
+                    <option value="requirement2">Business Consultation</option>
+                    <option value="requirement2">Notices</option>
+                    <option value="requirement2">Agreement & Documentation</option>
+                    <option value="requirement2">Auditing & Taxation</option>
+                    <option value="requirement2">Book-Keeping & Accounting</option>
+                    <option value="requirement2">Non Profit Organization - Compliances and taxation</option>
+                    <option value="requirement2">GST Compliances</option>
+                    <option value="requirement2">International Taxation & FEMA</option>
+                    <option value="requirement2">Income Tax & GST Notice</option>
+                    <option value="requirement2">Legal Compliances</option>
+                    <option value="requirement2">Annual Compliances</option>
+                    <option value="requirement2">Tax Compliances</option>
+                    <option value="requirement2">Business Compliances</option>
+                    <option value="requirement2">Accounting & Bookkeeping</option>
+                    <option value="requirement2">Others</option>
+                </select>
+                <button type="submit" class="book-btn">Book an appointment now</button>
+                <p class="price-info">₹499 for a 30 min Expert Consultation</p>
+            </form>
+        </div>
+
+
+    </div>
+
+    <div class="process-row-container">
+        <div class="process-container">
+            <div class="process-step">
+                <i class="fas fa-edit"></i>
+                <p>Fill Out the Form</p>
+            </div>
+            <div class="process-step">
+                <i class="fas fa-calendar-alt"></i>
+                <p>Schedule an Appointment</p>
+            </div>
+            <div class="process-step">
+                <i class="fas fa-credit-card"></i>
+                <p>Make Payment</p>
+            </div>
+            <div class="process-step">
+                <i class="fas fa-phone-alt"></i>
+                <p>Expert Will Call You</p>
+            </div>
+        </div>
+
+        <div class="rating-container">
+            <div class="rating">
+                <span class="stars"><span>4.3</span> <i class="fas fa-star"></i></span>
+                <p>(9500+ reviews)</p>
+                <p>Google</p>
+            </div>
+            <div class="cases">
+                <p>180500+</p>
+                <p>Cases resolved</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="scholar-heading">
+            Scholarly work by our panel of Consultants
+        </h1>
+    </div>
+
+    <div class="scholar-container">
+        <div class="arrow left">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="./assets/komal.svg" alt="Profile 1">
+                <h3>Komal</h3>
+                <p>Corporate and International Taxation, Direct and Indirect Tax</p>
+                <div class="links">
+                    <a href="#">Intellectual Property: Trademark...</a>
+                    <a href="#">How Important Is It to Hire a La...</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/dhamini.svg" alt="Profile 2">
+                <h3>Dhamini</h3>
+                <p>Property, Corporate Advisor</p>
+                <div class="links">
+                    <a href="#">What are the stamp duty and taxa...</a>
+                    <a href="#">What type of contract is a consu...</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/abhishek.svg" alt="Profile 3">
+                <h3>Abishek Giya</h3>
+                <p>Corporate Secretarial Compliances, FDI Advisory</p>
+                <div class="links">
+                    <a href="#">The Secretarial Audit Of A Compa...</a>
+                    <a href="#">What Are the Compliances for a O...</a>
+                </div>
+            </div>
+        </div>
+        <div class="arrow right">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </div>
+
+    <!-- Areas of Experties -->
+    <div class="areas-expertise-container">
+        <h1>Areas of Expertise</h1>
+
+        <div class="expertise-container">
+            <!-- Left list of expertise areas -->
+            <div class="expertise-item-one">
+                <ul>
+                    <li>Business Advisory</li>
+                    <li>Accounting & Tax Compliances</li>
+                    <li>Money Recovery</li>
+                    <li>Documentation</li>
+                    <li>Property Matters</li>
+                    <li>Matrimonial Services</li>
+                    <li>IP Services</li>
+                    <li class="active">Government Notices</li>
+                </ul>
+            </div>
+
+            <!-- Right side description -->
+            <div class="expertise-item-two">
+                <p>Our business consulting services help you stand out in a competitive market. From registering a
+                    company to providing end-to-end incorporation and compliance services, we help 10% of all Indian
+                    startups get incorporated. That’s one business every 9 minutes.
+                </p>
+
+                <ul class="expertise-list">
+                    <li>Explanation of notices</li>
+                    <li>Counselling & legal advice</li>
+                    <li>Response to notices</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vakil serch -->
+
+    <div class="vakil-card-main-container">
+        <h1>Why Vakilsearch?</h1>
+        <div class="vakil-card-container">
+            <div class="vakil-box">
+                <i class="fa-solid fa-desktop"></i>
+                <h5>Completely Online</h5>
+                <p>
+                    Our team of advisors will provide you with sound advice based on your needs.
+                    The entire procedure is very smooth and worry-free.
+                </p>
+            </div>
+            <div class="vakil-box">
+                <i class="fa-solid fa-video"></i>
+                <h5>Video Call</h5>
+                <p>
+                    We provide quick fixes to busy clients through video calls while maintaining their privacy
+                    over the phone or via email.
+                </p>
+            </div>
+            <div class="vakil-box">
+                <i class="fa-solid fa-money-bill"></i>
+                <h5>Save Money</h5>
+                <p>
+                    No extra fees will be charged. Change lawyers quickly without having to pay more.
+                    While saving money, get excellent guidance.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reviews -->
+
+    <!-- Reviews Section -->
+    <!-- Reviews Section -->
+    <div class="reviews-main-container">
+        <h1 class="review-heading">Reviews</h1>
+        <div class="reviews-container">
+            <!-- Review Card 1 -->
+            <div class="review-card">
+                <div class="review-img">
+                    <img src="./assets/arpit-verma.svg" alt="Arpita Verma">
+                    <div class="stars">
+                        <h4>Arpita Verma</h4>
+                        <span>★★★★★</span>
+                    </div>
+
+                </div>
+
+                <p>
+                    "My father runs a garment shop and we wanted to register for GST. I got in touch with
+                    their GST expert and they resolved all my queries. The process was a piece of cake!"
+                </p>
+            </div>
+
+            <!-- Review Card 2 -->
+            <div class="review-card">
+
+
+                <div class="review-img">
+
+                    <img src="./assets/sakshi-gupta.svg" alt="Sakshi Gupta">
+                    <div class="stars">
+                        <h4>Sakshi Gupta</h4>
+                        <span>★★★★★</span>
+                    </div>
+                </div>
+
+                <p>
+                    "I registered my property with the assistance of lawyers from Vakilsearch.
+                    The paperwork was verified, and the registration process was truly open to both
+                    the buyer and the seller."
+                </p>
+            </div>
+
+            <!-- Review Card 3 -->
+            <div class="review-card">
+
+                <div class="review-img">
+                    <img src="./assets/varsha-mahendra-singh.svg" alt="Varsha Mahendra Singh">
+                    <div class="stars">
+                        <h4>Varsha Mahendra Singh</h4>
+                        <span>★★★★★</span>
+                    </div>
+
+                </div>
+
+                <p>
+                    "Got in touch with Vakilsearch to register my marriage. The process was very fast
+                    and smooth. They provided the marriage certificate without any delay and much hassle!"
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 
+Frequently Asked Questions -->
+
+    <div class="faq-container">
+        <div class="faq-title">Frequently Asked Questions (FAQs)</div>
+
+        <div class="faq-item-one">
+            <details>
+                <summary>When can I expect to receive a response to my question?</summary>
+                <p>The expertise of the experts on Vakilsearch is diverse and one-of-a-kind. We try to get your question
+                    to the right expert as soon as possible so that you can get a good answer. You can expect a response
+                    within 24 working hours after submitting a request. Experts on Vakilsearch are active and eager to
+                    assist you with your legal issues, so you won’t have to wait long for answers.</p>
+            </details>
+        </div>
+
+        <div class="faq-item">
+            <details>
+                <summary>How can I find out if my question was answered?</summary>
+                <p>When your question is answered, we will notify you via email and text message.
+                </p>
+            </details>
+        </div>
+
+        <div class="faq-item">
+            <details>
+                <summary>What kinds of questions am I allowed to ask?</summary>
+                <p>You can inquire about anything related to your legal situation, such as how a particular process
+                    works, what documents or forms you require, or what specific words or phrases mean. You can seek
+                    advice, assistance with planning, or information about what might occur. Advice sessions and
+                    document review services can also help you get a second opinion on your legal problem</p>
+            </details>
+        </div>
+
+        <div class="faq-item">
+            <details>
+                <summary>Can I speak with the same expert if I call again?</summary>
+                <p>
+                    Yes. You have the option of speaking with the same expert again. When you call, you will be able to
+                    select the expert with whom you have previously spoken.</p>
+            </details>
+        </div>
+
+        <div class="faq-item">
+            <details>
+                <summary>How knowledgeable are the experts who will provide consultation?</summary>
+                <p>Vakilsearch only works with verified and experienced experts. You will be connected to a legal expert
+                    who will provide you with the best and most appropriate legal advice based on the area of concern
+                    you select.
+                </p>
+            </details>
+        </div>
+
+        <div class="faq-item">
+            <details>
+                <summary>Can I choose the expert I want to consult?</summary>
+                <p>You can select the expert with whom you have already communicated. Otherwise, our system selects an
+                    expert based on your query, preferred language, and availability. </p>
+            </details>
+        </div>
+
+        <div class="faq-item">
+            <details>
+                <summary>Is it necessary to look for an expert online?</summary>
+                <p>There are numerous advantages to looking for a legal expert online, such as saving time, ensuring
+                    your privacy, and avoiding language barriers. On Vakilsearch, you can find an online expert who
+                    speaks your language.</p>
+            </details>
+        </div>
+
+        <div class="faq-item">
+            <details>
+                <summary>What languages are available for online legal advice?</summary>
+                <p>
+                    You can get online legal advice in your native Indian language through Vakilsearch. Legal advice is
+                    available in English, Hindi, Tamil, Telugu, Kannada, Marathi, Bengali and Malayalam.</p>
+            </details>
+        </div>
+
+    </div>
+
+
+
+    <!-- start-footer -->
+
+    <div class="footer">
+        <div class="footer-item-one">
+            <a href="#" class="nav-logo">
+                <video autoplay loop muted playsinline>
+                    <source src="./assets/zolvit.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </a>
+        </div>
+
+        <div class="footer-content-one">
+
+            <div class="footer-content-item">
+                <h4>Start a Business</h4>
+                <div class="footer-yellow-line">
+
+                </div>
+
+                <ul>
+                    <li>Private Limited Company</li>
+                    <li>Limited Liability Partnership</li>
+                    <li>One Person Company</li>
+                    <li>Partnership Firm</li>
+                    <li>Proprietorship Firm</li>
+                </ul>
+            </div>
+            <div class="footer-content-item">
+                <h4>Trademark & Copyright</h4>
+                <div class="footer-yellow-line">
+
+                </div>
+                <ul>
+                    <li>Trademark Registration</li>
+                    <li>Trademark Objection</li>
+                    <li>Trademark Assignment</li>
+                    <li>Trademark Renewal</li>
+                    <li>Copyright Registration</li>
+
+                </ul>
+            </div>
+            <div class="footer-content-item">
+                <h4>Govt & Tax Registration</h4>
+                <div class="footer-yellow-line">
+
+                </div>
+
+                <ul>
+                    <li>GST Registration</li>
+                    <li>TDS Return</li>
+                    <li>Importer Exporter Code</li>
+                    <li>Professional Tax Registration</li>
+                    <li>Shops & Establishments Registration</li>
+
+
+                </ul>
+            </div>
+            <div class="footer-content-item">
+                <h4>Legal Documentation</h4>
+                <div class="footer-yellow-line">
+
+                </div>
+                <ul>
+                    <li>Non-Disclosure Agreement</li>
+                    <li>Founders Agreement</li>
+                    <li>Term Sheet</li>
+                    <li>Shareholders Agreement</li>
+                    <li>Share Purchase Agreement</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-button">
+            <button class="footer-button-service">See all the servicess</button>
+
+        </div>
+
+        <div class="footer-content-one">
+
+            <div class="footer-content-item">
+                <h4>TOOLS</h4>
+                <div class="footer-yellow-line">
+
+                </div>
+
+                <ul>
+                    <li>GST Calculator</li>
+                    <li>SIP Calculator</li>
+                    <li>Business Setup Calculator</li>
+                    <li>Salary Calculator</li>
+                    <li>Lumpsum Calculator</li>
+                </ul>
+            </div>
+            <div class="footer-content-item">
+
+                <ul>
+                    <li>TDS Calculator</li>
+                    <li> NPS Calculator</li>
+                    <li> PPF Calculator</li>
+                    <li>Retirement Planning Calculator</li>
+
+
+                </ul>
+            </div>
+            <div class="footer-content-item">
+
+
+                <ul>
+                    <li>
+                        HRA Calculator</li>
+                    <li>
+                        EPF Calculator</li>
+                    <li>
+                        Income Tax Calculator</li>
+                    <li>
+                        RD Calculator</li>
+
+
+
+                </ul>
+            </div>
+            <div class="footer-content-item">
+
+                <ul>
+                    <li>
+                        Gratuity Calculator</li>
+                    <li>
+                        HSN Code Finder</li>
+                    <li>Simple Compound</li>
+                    <li>
+                        Interest Calculator</li>
+                    <li>
+                        Mutual Fund Calculator</li>
+
+                </ul>
+
+
+            </div>
+        </div>
+        <hr class="horizontal-line">
+
+        <div class="footer-bottom-container">
+            <ul class="footer-bottom-item">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Media</a></li>
+                <li><a href=""> Press Release</a></li>
+                <li><a href=""> Contact Us</a></li>
+                <li><a href="">Partner with Us</a></li>
+                <li><a href="">Satisfaction Guarantee</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Sitemap</a></li>
+                <li><a href="">Udyam Registration</a></li>
+            </ul>
+
+            <ul class="footer-bottom-item">
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+
+        </div>
+        <hr class="horizontal-line">
+
+    </div>
+
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbarMenu = document.getElementById('navbar-menu');
+
+        menuIcon.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
