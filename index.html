@@ -45,14 +45,15 @@
             <ul class="features-list">
                 <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span>200+ Verified
                         Experts</span></li>
-                <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span> Advice on All
+                <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span>Advice on All
                         Issues</span></li>
                 <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span>No Hidden
                         Costs</span></li>
                 <li><i class="far fa-check-circle" style="color: blue; font-size: 20px;"></i><span>Guaranteed
                         Satisfaction, or Full Refund</span></li>
-            </ul><span></span>
+            </ul>
         </div>
+
         <div class="right-content">
             <form class="consult-form">
                 <input type="tel" placeholder="Mobile number*" required>
@@ -139,7 +140,8 @@
                 </select>
                 <select required>
                     <option value="" disabled selected>Select your requirements*</option>
-                    <option value="requirement1">Consult - 2023 Budget Impacts</option>
+                    <option value="requirement1">Consult - 2023 Budget Impacts<span
+                            style="background-color: yellow;border-radius: 8px; color: black;"> New </span></option>
                     <option value="requirement2">Property & Civil Matters</option>
                     <option value="requirement2">Money Recovery</option>
                     <option value="requirement2">Matrimonial Services</option>
@@ -207,7 +209,7 @@
     </div>
 
     <div class="scholar-container">
-        <div class="arrow left">
+        <div class="arrow left" onclick="scrollCards('left')">
             <i class="fas fa-chevron-left"></i>
         </div>
         <div class="cards">
@@ -239,10 +241,11 @@
                 </div>
             </div>
         </div>
-        <div class="arrow right">
+        <div class="arrow right" onclick="scrollCards('right')">
             <i class="fas fa-chevron-right"></i>
         </div>
     </div>
+
 
     <!-- Areas of Experties -->
     <div class="areas-expertise-container">
@@ -271,9 +274,12 @@
                 </p>
 
                 <ul class="expertise-list">
-                    <li>Explanation of notices</li>
-                    <li>Counselling & legal advice</li>
-                    <li>Response to notices</li>
+                    <li>Company incorporation</li>
+                    <li>Labour law compliance</li>
+                    <li>State law compliance</li>
+                    <li>Intellectual property protection</li>
+                    <li>Fundraising</li>
+                    <li>Pitchdeck</li>
                 </ul>
             </div>
         </div>
@@ -574,7 +580,8 @@ Frequently Asked Questions -->
                     <li>
                         Income Tax Calculator</li>
                     <li>
-                        RD Calculator</li>
+                        RD Calculator
+                    </li>
 
 
 
@@ -635,6 +642,18 @@ Frequently Asked Questions -->
         menuIcon.addEventListener('click', () => {
             navbarMenu.classList.toggle('active');
         });
+
+        function scrollCards(direction) {
+            const cardsContainer = document.querySelector('.cards');
+            const scrollAmount = 300; // Set the scroll distance
+
+            if (direction === 'left') {
+                cardsContainer.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else {
+                cardsContainer.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        }
+
     </script>
 
 </body>
