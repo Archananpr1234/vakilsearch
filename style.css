@@ -496,6 +496,7 @@ body {
     margin: 30px;
     font-size: 35px;
     font-weight: bold;
+    
 
 }
 
@@ -511,6 +512,7 @@ body {
 .expertise-container {
     display: flex;
     align-items: start;
+    flex-wrap: wrap;
 }
 
 /* Left side menu */
@@ -788,8 +790,7 @@ body {
 }
 
 .faq-container {
-    padding: 100px;
-
+    padding:30px;
     margin: 20px;
 }
 
@@ -924,12 +925,45 @@ body {
     background-color: transparent;
 }
 
+
+
+.footer-yellow {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-yellow-line {
     width: 50px;
     height: 3px;
     background-color: #f0c000;
-    margin-top: 14px;
+    margin: 10px 0; /* Adjusts spacing around the yellow line */
 }
+
+.footer-content-item h4 {
+    margin: 0;
+    text-align: center; /* Centers the heading for better alignment */
+}
+
+@media (max-width: 768px) {
+    .footer-yellow-line {
+        width: 40px; /* Adjust width for smaller screens */
+    }
+
+    .footer-content-item h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-yellow-line {
+        width: 30px; /* Adjust width for very small screens */
+    }
+
+    .footer-content-item h4 {
+        font-size: 16px;
+    }
+}
+
 
 .footer-item-one a video {
     margin: 30px;
